@@ -1,0 +1,13 @@
+## INSERT INTO 'properties' ##
+INSERT INTO `properties` (`id`, `user_id`, `title`, `address`, `price`, `latitude`, `longitude`, `created_at`, `updated_at`) VALUES (NULL, '1', 'Apartamento 201', 'Rua sem nome, Belo Horizonte - MG', '120.00', '-27.204534', '-27.204534', '2020-08-13 17:42:55', '2020-08-13 17:42:55');
+
+INSERT INTO `properties` (`id`, `user_id`, `title`, `address`, `price`, `latitude`, `longitude`, `created_at`, `updated_at`) VALUES (NULL, '1', 'Casa 02', 'Rua dos bobos, Belo Horizonte - MG', '120.00', '-27.204534', '-27.204534', '2020-08-13 17:42:55', '2020-08-13 17:42:55');
+
+--------------------------------------------------------------------------------------------------------------------
+
+## INSERT INTO 'images' ##
+INSERT INTO `images` (`id`, `property_id`, `path`, `created_at`, `updated_at`) VALUES (NULL, '1', '/caminho/imagem.jpg', '2020-08-13 17:46:20', '2020-08-13 17:46:20');
+INSERT INTO `images` (`id`, `property_id`, `path`, `created_at`, `updated_at`) VALUES (NULL, '1', '/caminho/imagem2.jpg', '2020-08-13 17:46:20', '2020-08-13 17:46:20');
+
+INSERT INTO `images` (`id`, `property_id`, `path`, `created_at`, `updated_at`) VALUES (NULL, '2', '/caminho/imagem.jpg', '2020-08-13 17:46:20', '2020-08-13 17:46:20');
+INSERT INTO `images` (`id`, `property_id`, `path`, `created_at`, `updated_at`) VALUES (NULL, '2', '/caminho/imagem2.jpg', '2020-08-13 17:46:20', '2020-08-13 17:46:20');
